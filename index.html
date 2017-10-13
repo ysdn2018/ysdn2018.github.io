@@ -24,6 +24,23 @@
 			font-size: 18px;
 			line-height: 1.5;
 		}
+		
+		body * {
+		  animation-duration: 3s;
+		  animation-name: rotate;
+		animation-iteration-count: infinite;
+			animation-fill-mode: forwards;
+		}
+
+		@keyframes rotate {
+		  from {
+		    transform: rotate(0deg);
+		  }
+
+		  to {
+		    transform: rotate(360deg);
+		  }
+		}
 	</style>
 </head>
 

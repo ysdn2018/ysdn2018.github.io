@@ -1,0 +1,23 @@
+{
+  "name": "the-next",
+  "version": "0.1.0",
+  "homepage": "https://ysdn2018.com/",
+  "private": true,
+  "dependencies": {
+    "animateplus": "^2.0.0",
+    "gh-pages": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-scripts": "1.0.17",
+    "styled-components": "^2.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "short_name": "The Next",
+  "name": "The Next - YSDN 2018",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
